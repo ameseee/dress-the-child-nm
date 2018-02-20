@@ -1,0 +1,117 @@
+* {
+  font-family: Montserrat;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.app {
+  text-align: center;
+}
+
+/* hero header */
+ .home-header {
+   background-image: url(../assets/kids-photo.jpeg);
+   background-position: center;
+   background-size: cover;
+   height: 150px;
+   padding: 20px;
+   color: white;
+   height: 60%;
+ }
+
+ .nav {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 70%;
+   margin: 0 auto 10% auto;
+ }
+
+ .brand-logo {
+   font-size: 1.5em;
+ }
+
+ .nav-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .nav-option {
+   text-transform: uppercase;
+   font-size: 85%;
+   margin-left: 20px;
+   cursor: pointer;
+ }
+
+ .nav-option:hover {
+
+ }
+
+h1, h2 {
+  font-family: 'Libre Baskerville';
+}
+
+.call-to-action-btn {
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 80px;
+}
+
+.call-to-action-btn:hover {
+  color: red;
+}
+
+
+/* what we do */
+.home-section {
+  padding: 0 18%;
+  margin: 0 auto;
+  outline: 1px solid grey;
+}
+
+.mission-section,
+.dinner-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-section {
+  width: 70%;
+}
+
+#what-we-do-img {
+  height: 40px;
+  width: 28%;
+  outline: 1px solid orange;
+}
+
+/* how you can help */
+.help-option {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.help-title {
+  width: 30%;
+}
+
+//partners
+.partner-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.partner-card {
+  width: 27.5%;
+  outline: 1px solid green;
+}

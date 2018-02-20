@@ -1,0 +1,15 @@
+{
+  "name": "dress-the-child-nm",
+  "version": "1.0.0",
+  "description": "Dress The Child Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Amy Holt",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

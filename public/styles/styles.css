@@ -141,16 +141,14 @@ h1 {
   width: 17.5%;
 }
 
-#donate-btn,
-#newsletter-email-btn {
+#donate-btn {
   background-color: #409BAD;
   margin-bottom: 20px;
   font-size: 85%;
   height: 40px;
 }
 
-#donate-btn:hover,
-#newsletter-email-btn:hover {
+#donate-btn:hover {
   background-color: #307482;
 }
 
@@ -169,6 +167,7 @@ h1 {
 .partners-title {
   color: #fff;
 }
+
 .partner-card-container {
   display: flex;
   flex-direction: row;
@@ -187,7 +186,6 @@ h1 {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .sign-up-text {
@@ -201,6 +199,17 @@ h1 {
   padding-left: 10px;
   width: 300px;
   color: #3C3C3C;
+}
+
+#newsletter-email-btn:hover {
+  background-color: #307482;
+}
+
+#newsletter-email-btn {
+  background-color: #409BAD;
+  font-size: 85%;
+  height: 40px;
+  margin-bottom: 0;
 }
 
 .dinner-section {

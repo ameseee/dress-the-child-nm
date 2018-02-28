@@ -54,7 +54,7 @@ body {
 }
 
 .nav-option:hover {
-  color: #80BCC8;
+  color: #D02E7E;
 }
 
 h1, h2 {
@@ -79,13 +79,13 @@ h1 {
   padding: 10px 15px;
   cursor: pointer;
   margin-bottom: 80px;
-  background-color: #80BCC8;
+  background-color: #c9106c;
   color: #fff;
   transition: all 0.4s ease;
 }
 
 .call-to-action-btn:hover {
-  background-color: #409BAD;
+  background-color: #B00E5F;
 }
 
 
@@ -130,7 +130,7 @@ h1 {
 }
 
 .help-donate {
-  background-color: #F1F2F2;
+  background-color: #fff;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -142,14 +142,18 @@ h1 {
 }
 
 #donate-btn {
-  background-color: #409BAD;
+  background-color: #c9106c;
   margin-bottom: 20px;
   font-size: 85%;
   height: 40px;
 }
 
 #donate-btn:hover {
-  background-color: #307482;
+  background-color: #B00E5F;
+}
+
+.how-section {
+  background-color: #F1F2F2;
 }
 
 /* partners */
@@ -161,7 +165,7 @@ h1 {
 
 .opacity-layer-partner {
   padding: 5% 18%;
-  background-color: rgba(33, 33, 33, 0.75);
+  background-color: rgba(104, 9, 80, 0.75);
 }
 
 .partners-title {
@@ -201,15 +205,15 @@ h1 {
   color: #3C3C3C;
 }
 
-#newsletter-email-btn:hover {
-  background-color: #307482;
-}
-
 #newsletter-email-btn {
-  background-color: #409BAD;
+  background-color: #c9106c;
   font-size: 85%;
   height: 40px;
   margin-bottom: 0;
+}
+
+#newsletter-email-btn:hover {
+  background-color: #B00E5F;
 }
 
 .dinner-section {
@@ -236,5 +240,50 @@ h1 {
 }
 
 footer {
-  background-color: #80BCC8;
+  background-color: #B00E5F;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 18%;
+}
+
+.footer-title {
+  font-family: 'Libre Baskerville';
+  color: #fff;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.email,
+.facebook {
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  transition: all 0.4s ease;
+}
+
+.email {
+  background-image: url(../assets/email.svg);
+}
+
+.email:hover {
+
+}
+
+.facebook {
+  background-image: url(../assets/facebook.svg);
+}
+
+.facebook:hover {
+
 }

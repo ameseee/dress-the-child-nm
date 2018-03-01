@@ -1,0 +1,116 @@
+body {
+  background-image: url(../assets/kids-photo.jpeg);
+   background-position: center;
+   background-size: cover;
+   height: 150px;
+   color: white;
+   height: 60%;
+}
+
+.opacity-layer-donate {
+  padding: 20px;
+  background-color: rgba(33, 33, 33, 0.75);
+  height: 100vh;
+  padding-bottom: 180px;
+}
+
+#donate-nav {
+  margin-bottom: 10px;
+}
+
+.donation-form-container {
+  margin: 0 auto;
+  width: 60%;
+  background-color: grey;
+}
+
+.amount-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 3% 10%;
+  margin: 0 auto;
+  background-color: #E7E2E4;
+  color: #000;
+}
+
+.amount-option-title {
+  margin: 0;
+}
+
+.enter-amount-btn {
+  /* padding: 0px 10px; */
+  outline: none;
+  border: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.enter-amount-btn:hover {
+  background-color: grey;
+}
+
+.choose-amount {
+  display: flex;
+  flex-direction: column;
+}
+
+.amount-option-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.amount-btn {
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.amount-btn:hover {
+  background-color: grey;
+}
+
+.enter-amount {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 3% 10%;
+  margin: 0 auto;
+}
+
+.row-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.payment-info {
+
+}
+
+.info-input {
+  font-size: 85%;
+  padding: 5px;
+  border: none;
+  margin: 5px 0px 5px 0px;
+  outline-color: #CFCECF
+}
+
+.submit-info-btn {
+  padding: 5px 0px 5px 0px;
+  outline: none;
+  border: none;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.submit-info-btn:hover {
+  background-color: pink;
+}

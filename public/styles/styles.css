@@ -8,7 +8,6 @@ body {
   box-sizing: border-box;
 }
 
-
 .app {
   text-align: center;
 }
@@ -55,7 +54,7 @@ body {
 }
 
 .nav-option:hover {
-  color: #80BCC8;
+  color: #D02E7E;
 }
 
 h1, h2 {
@@ -80,37 +79,43 @@ h1 {
   padding: 10px 15px;
   cursor: pointer;
   margin-bottom: 80px;
-  background-color: #80BCC8;
+  background-color: #c9106c;
   color: #fff;
   transition: all 0.4s ease;
 }
 
 .call-to-action-btn:hover {
-  background-color: #409BAD;
+  background-color: #B00E5F;
 }
 
 
 /* what we do */
 .home-section {
-  padding: 0 18%;
+  padding: 5% 18%;
   margin: 0 auto;
-  outline: 1px solid grey;
 }
 
-.mission-section,
-.dinner-section {
-  display: flex;
-  flex-direction: row;
+.mission-section {
+  background-color: #F1F2F2;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: auto;
+  grid-template-areas: "title . " "text image";
 }
 
-.text-section {
-  width: 70%;
+.what-we-do-title {
+  grid-area: title;
+}
+
+.what-we-do-text {
+  grid-area: text;
+  margin: 10px 15px 10px 0;
 }
 
 #what-we-do-img {
-  height: 40px;
-  width: 28%;
-  outline: 1px solid orange;
+  grid-area: image;
+  height: 100%;
+  width: auto;
 }
 
 /* how you can help */
@@ -124,7 +129,49 @@ h1 {
   width: 30%;
 }
 
-//partners
+.help-donate {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#donate-btn {
+  width: 17.5%;
+}
+
+#donate-btn {
+  background-color: #c9106c;
+  margin-bottom: 20px;
+  font-size: 85%;
+  height: 40px;
+}
+
+#donate-btn:hover {
+  background-color: #B00E5F;
+}
+
+.how-section {
+  background-color: #F1F2F2;
+}
+
+/* partners */
+.partner-section {
+  background-image: url(../assets/kids-photo.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.opacity-layer-partner {
+  padding: 5% 18%;
+  background-color: rgba(104, 9, 80, 0.75);
+}
+
+.partners-title {
+  color: #fff;
+}
+
 .partner-card-container {
   display: flex;
   flex-direction: row;
@@ -133,5 +180,110 @@ h1 {
 
 .partner-card {
   width: 27.5%;
-  outline: 1px solid green;
+  background-color: #F1F2F2;
+  padding: 5px 15px;
+}
+
+/* newsletter */
+.newsletter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-up-text {
+
+}
+
+#newsletter-sign-up {
+  height: 35px;
+  outline: none;
+  font-size: 85%;
+  padding-left: 10px;
+  width: 300px;
+  color: #3C3C3C;
+}
+
+#newsletter-email-btn {
+  background-color: #c9106c;
+  font-size: 85%;
+  height: 40px;
+  margin-bottom: 0;
+}
+
+#newsletter-email-btn:hover {
+  background-color: #B00E5F;
+}
+
+.dinner-section {
+  background-color: #F1F2F2;
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: auto;
+  grid-template-areas: "title . " "image text";
+}
+
+.dinner-title {
+  grid-area: title;
+}
+
+.dinner-text {
+  grid-area: text;
+  margin: 15px;
+}
+
+#dinner-img {
+  grid-area: image;
+  height: 100%;
+  width: auto;
+}
+
+footer {
+  background-color: #B00E5F;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 18%;
+}
+
+.footer-title {
+  font-family: 'Libre Baskerville';
+  color: #fff;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.email,
+.facebook {
+  background-position: center;
+  background-size: cover;
+  height: 30px;
+  width: 30px;
+  transition: all 0.4s ease;
+}
+
+.email {
+  background-image: url(../assets/email.svg);
+}
+
+.email:hover {
+
+}
+
+.facebook {
+  background-image: url(../assets/facebook.svg);
+}
+
+.facebook:hover {
+
 }
